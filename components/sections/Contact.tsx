@@ -65,7 +65,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h5 className="font-bold text-lg">Email</h5>
-                    <p className="text-gray-400 text-sm">info@ramzospring.com</p>
+                    <a className="text-gray-400 text-sm" href="mailto:isesay82@yahoo.com">isesay82@yahoo.com</a>
                   </div>
                 </div>
               </div>
