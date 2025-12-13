@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0369a1" />
+
+  <!-- Title -->
+  <title>Ramzo Spring</title>
+
+  <!-- SEO Meta -->
+  <meta
+    name="description"
+    content="Ramzo Spring delivers pure, natural spring water with unmatched quality. Reaching the top with grace through innovation, purity, and trust."
+  />
+  <meta
+    name="keywords"
+    content="Ramzo Spring, natural spring water, bottled water, pure water, mineral water, sustainable water brand"
+  />
+  <meta name="author" content="Ramzo Spring" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://ramzospring.com/" />
+
+  <!-- Favicon / Logo -->
+  <link rel="icon" type="image/png" href="/logo_transparent.png" />
+  <link rel="apple-touch-icon" href="/logo_transparent.png" />
+
+  <!-- Open Graph (Facebook / LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ramzo Spring " />
+  <meta
+    property="og:description"
+    content="Pure natural spring water crafted with care. Discover Ramzo Spring."
+  />
+  <meta property="og:url" content="https://ramzospring.com/" />
+  <meta property="og:image" content="/transparent_logo.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ramzo Spring | Reaching the Top with Grace" />
+  <meta
+    name="twitter:description"
+    content="Pure, refreshing spring water by Ramzo Spring."
+  />
+  <meta name="twitter:image" content="/transparent_logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#0f172a',
+              primary: '#0369a1',
+              accent: '#06b6d4',
+              light: '#f8fafc',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+          },
+          backgroundImage: {
+            'water-texture': "url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?q=80&w=2070&auto=format&fit=crop')",
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- UI Enhancements -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #0369a1;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0c4a6e;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+    }
+    .glass-dark {
+      background: rgba(15, 23, 42, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+  </style>
+
+  <!-- React Import Map -->
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://esm.sh/react@^19.2.3",
+      "react/": "https://esm.sh/react@^19.2.3/",
+      "react-dom": "https://esm.sh/react-dom@^19.2.3",
+      "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+      "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+      "framer-motion": "https://esm.sh/framer-motion@^12.23.26"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="/index.css" />
+</head>
+
+<body class="bg-brand-light text-brand-dark antialiased overflow-x-hidden">
+  <!-- App Root -->
+  <div id="root"></div>
+
+  <!-- Entry -->
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
