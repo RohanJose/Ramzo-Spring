@@ -16,7 +16,7 @@ const products: Product[] = [
     id: 'p2',
     name: 'Pure Water Bottle',
     size: '500ml',
-    description: 'Refreshing, pure water in hygienic botles. Perfect for events, daily hydration, and on-the-go refreshment.',
+    description: 'Refreshing, pure water in hygienic bottles. Perfect for events, daily hydration, and on-the-go refreshment.',
     image: '/bottle_picture.png',
   },
   {
