@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const stats: Stat[] = [
   { label: 'Ranking in SL', value: 'Top', suffix: ' 20' },
   { label: 'Bundles Produced', value: '10', suffix: 'k+' },
-  { label: 'Daily Production', value: '100', suffix: 'k L' },
+  { label: 'Daily Production', value: '100', suffix: 'k+' },
   { label: 'Quality Process', value: 'P', suffix: 'PP' },
 ];
 
